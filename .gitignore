@@ -127,12 +127,4 @@ dist
 .yarn/unplugged
 .yarn/build-state.yml
 .yarn/install-state.gz
-<<<<<<< HEAD
 .pnp.*
-=======
-<<<<<<< HEAD
-.pnp.*
-=======
-.pnp.*
->>>>>>> 8fce268 (initial setup)
->>>>>>> 7d33eb8 (First commit)

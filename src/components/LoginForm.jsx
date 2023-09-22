@@ -5,8 +5,7 @@ export default function LoginForm() {
   const [email, setEmail] = useState(" @gmail.com");
   const [password, setPassword] = useState("********");
   return (
-    ///<div className="login-form">
-    <div>
+    <div className="login-form">
       <form>
         <div className="form-control">
           <div>

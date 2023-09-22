@@ -2,11 +2,11 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div>
+    <div className="hero">
       <h2>Welcome Back </h2>
       <h4>
-        If you forgot your password, please contact your <br /> system
-        administrator for a reset{" "}
+        If you forgot your password, please contact your system administrator
+        for a reset{" "}
       </h4>
     </div>
   );
