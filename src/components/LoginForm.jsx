@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 export default function LoginForm() {
-  const [email, setEmail] = useState(" @gmail.com");
+  const [email, setEmail] = useState(" sancristma@gmail.com");
   const [password, setPassword] = useState("********");
   return (
     <div className="login-form">
@@ -29,10 +29,10 @@ export default function LoginForm() {
           {/* <div className=" checkbox">*/}
           <div className="checkbox">
             <input type="checkbox" />
-            <h3>
-              Agree to <a href="#"> Privacy Policy</a>
-            </h3>
+            Agree to <a href="#"> Privacy Policy</a>
           </div>
+        </div>
+        <div>
           <button className="btn-1">Login</button>
         </div>
       </form>

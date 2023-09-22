@@ -4,11 +4,11 @@ import LoginForm from "../components/LoginForm";
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 
-const loginScreen = () => {
+const LoginScreen = () => {
   return (
     <div className="screen">
       <Header />
-      <div className="login-form">
+      <div className="">
         <Hero />
         <LoginForm />
       </div>
@@ -18,4 +18,4 @@ const loginScreen = () => {
   );
 };
 
-export default loginScreen;
+export default LoginScreen;

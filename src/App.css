@@ -14,7 +14,7 @@
   padding: 10px 20px;
   background-color: #fff;
   color: white;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 .logo img {
   width: 100px;
@@ -23,9 +23,9 @@
 }
 .hero {
   align-items: center;
-  margin-top: 75px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 105px;
+
+  padding: 3px;
 }
 .banner {
   flex: 1;
@@ -43,7 +43,7 @@
 
 button {
   margin-left: 10px;
-  background-color: #4caf50;
+
   color: black;
   border: none;
   padding: 10px 20px;
@@ -53,9 +53,8 @@ button {
   flex: 1;
   display: flex;
   flex-direction: column;
-  margin-top: auto;
-
-  padding: 20px;
+  margin-top: 1px;
+  padding: 3px;
 }
 
 .form-control input {
@@ -65,15 +64,6 @@ button {
   padding: 3px 7px;
   font-size: 17px;
 }
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.form-control-check label {
-  flex: 1;
-}
 
 .form-control-check input {
   flex: 2;
@@ -82,11 +72,13 @@ button {
 .btn-b1 {
   display: flex;
   justify-content: flex-end;
-}
-.btn-b1 button {
-  margin-left: 10px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
 }
 .checkbox {
   align-items: center;
   display: flex;
+  display: inline-block;
+  vertical-align: top;
 }
