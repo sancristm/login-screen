@@ -77,8 +77,8 @@ button {
   top: 50%;
 }
 .checkbox {
-  align-items: center;
   display: flex;
-  display: inline-block;
-  vertical-align: top;
+}
+.checkbox input[type="checkbox"] {
+  margin-right: 0px;
 }
